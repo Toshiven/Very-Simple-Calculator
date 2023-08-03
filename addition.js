@@ -5,32 +5,20 @@ const optionSelector = document.getElementById("ops");
 
 const addition = () => {
     //parses input value to float and does the maths
-    const num1 = parseFloat(input0.value);
-    const num2 = parseFloat(input1.value);
-    const answer = parseFloat(num1) + parseFloat(num2);
-    return answer;
+    return parseFloat(input0.value) + parseFloat(input1.value);
 }
 
 const subtraction = () => {
     //parses input value to float and does the maths
-    const num1 = parseFloat(input0.value);
-    const num2 = parseFloat(input1.value);
-    const answer = parseFloat(num1) - parseFloat(num2);
-    return answer;
+    return parseFloat(input0.value) - parseFloat(input1.value);
 }
 
 const multiplication = () => {
-    const num1 = parseFloat(input0.value);
-    const num2 = parseFloat(input1.value);
-    const answer = num1 * num2;
-    return answer;
+    return parseFloat(input0.value) * parseFloat(input1.value);
 }
 
 const division = () => {
-    const num1 = parseFloat(input0.value);
-    const num2 = parseFloat(input1.value);
-    const answer = num1 / num2;
-    return answer;
+    return parseFloat(input0.value) / parseFloat(input1.value);
 }
 
     const button = () => {
